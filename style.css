@@ -71,3 +71,12 @@ body{
     width: 440px;
     height: 400px;
 }
+
+
+
+/**********--------logo-area-------***************/
+.logo-area img{
+    margin-left: 50px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
