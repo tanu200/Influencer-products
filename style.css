@@ -67,6 +67,9 @@ body{
     color:#FFFFFF;
     margin-top: 20px;
 }
+.influencer-title i{
+    margin-left: 10px;
+}
 .influencer-img img{
     width: 440px;
     height: 400px;
@@ -130,5 +133,13 @@ font-size: 28px;
 .collection-details .star p{
     margin-left: 10px;
   
+}
+.popular-area .text1{
+    color: #E02C6D;
+    text-align:end;
+    margin-top: 20px;
+}
+.popular-area .text1 i{
+    margin-left: 10px;
 }
 
