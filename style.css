@@ -80,3 +80,55 @@ body{
     margin-top: 70px;
     margin-bottom: 50px;
 }
+
+
+
+
+/*********--------popular-collection area---------**********/
+
+
+.popular-area h1{
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.collect-area{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:30px
+}
+.collect-area .collection{
+    background-color: #EDF5F6;
+    border-radius:10px;
+    padding: 10px;
+    width: 329px;
+    height: 476px;
+}
+.collection-img img{
+    border: 10px;
+    width: 100%;
+    height: 256px;
+   
+
+}
+.collection-details h2{
+    font-weight: 500;
+font-size: 28px;
+}
+.collection-details .star{
+    display: flex;
+    align-items: center;
+}
+.collection-details p{
+    color: #787885;
+}
+.collection-details .star i{
+    color: #FB8200;
+}
+.collection-details .star p{
+    margin-left: 10px;
+  
+}
+
