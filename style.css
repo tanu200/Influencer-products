@@ -37,3 +37,37 @@ body{
 .header-nav i{
     margin-right: 40px;
 }
+
+
+
+/*********------------influencer-area----------***********/
+.influencer-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.influencer-title h1{
+    font-size: 52px;
+    color:#3A3A3A;
+
+  
+}
+.influencer-title p{
+    font-size: 16px;
+    color:#3A3A3A;
+    font-weight: 600;
+}
+.influencer-title .button{
+    border: none;
+    background-color:#E02C6D;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color:#FFFFFF;
+    margin-top: 20px;
+}
+.influencer-img img{
+    width: 440px;
+    height: 400px;
+}
