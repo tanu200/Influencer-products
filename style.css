@@ -12,7 +12,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .container{
-    width: 1200px;
+    width: 80%;
     margin: auto;
 }
 
@@ -42,7 +42,8 @@ body{
 
 /*********------------influencer-area----------***********/
 .influencer-area{
-    display: flex;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
@@ -75,7 +76,7 @@ body{
     margin-left: 10px;
 }
 .influencer-img img{
-    width: 440px;
+    width:440px;
     height: 400px;
 }
 
@@ -86,6 +87,9 @@ body{
     margin-left: 50px;
     margin-top: 70px;
     margin-bottom: 50px;
+}
+.logo-area {
+    display: flex;
 }
 
 
@@ -153,7 +157,8 @@ font-size: 28px;
 
 /*****---------------service-area------******/
 .service-area{
-    display: flex;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
@@ -221,4 +226,54 @@ footer{
     background-color: #22213C;}
 .footer-text p{
     font-size: 14px;
+ 
+}
+
+
+
+/***************----------media query--------****************/
+@media only screen and (max-width:320px){
+    .header-left{
+        font-size: 16px;
+    }
+    .influencer-area {
+        display: grid;
+        grid-template-columns:  1fr;}
+
+    .logo-area {
+            flex-direction: row;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;}
+            .popular-area h1{
+                font-size: 25px;
+                text-align: center;
+            }
+    .collect-area {
+                display: grid;
+                grid-template-columns:  1fr;
+                gap: 30px;}
+    .service-area {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 50px;}
+}
+
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    .logo-area {
+        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;}
+    .collect-area {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;}
+    .service-area {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 50px;}
 }
