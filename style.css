@@ -202,3 +202,20 @@ font-size: 28px;
 color: aliceblue;
 transition: ease-in 0.2s;
 }
+
+
+
+/****-----------footer-area-----***/
+footer{
+    background-color: #0A0826;
+    color: #ffffff;
+    padding: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-icon i{
+    font-size: 20px;
+    border-radius: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #22213C;
