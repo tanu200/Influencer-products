@@ -12,7 +12,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .container{
-    width: 80%;
+    width:80%;
     margin: auto;
 }
 
@@ -76,10 +76,9 @@ body{
     margin-left: 10px;
 }
 .influencer-img img{
-    width:440px;
-    height: 400px;
+    width: 440px;
+height: 400px;
 }
-
 
 
 /**********--------logo-area-------***************/
@@ -91,6 +90,8 @@ body{
 .logo-area {
     display: flex;
 }
+
+
 
 
 
@@ -115,13 +116,12 @@ body{
     border-radius: 5px;
     border-radius:10px;
     padding: 10px;
-    width: 329px;
-    height: 476px;
+   
 }
 .collection-img img{
     border: 10px;
-    width: 100%;
-    height: 250px;
+   
+ 
    
 
 }
@@ -157,11 +157,9 @@ font-size: 28px;
 
 /*****---------------service-area------******/
 .service-area{
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 50px;
+    gap:30px
  
 }
 .service-title h1{
@@ -180,8 +178,7 @@ font-size: 28px;
 }
 .service-img img{
     border: 10px;
-    width: 100%;
-    height: 250px;
+    
 }
 .service-text i{
     background-color:#E02C6D ;
@@ -211,22 +208,24 @@ transition: ease-in 0.2s;
 
 
 /****-----------footer-area-----***/
-footer{
-    background-color: #0A0826;
-    color: #ffffff;
-    padding: 40px;
+.footer-area{
+       margin-top: 70px;
+        background-color: #0A0826;
+        padding: 20px;
+        text-align: center;
+}
+.footer-text{
     text-align: center;
-    margin-top: 50px;
+    color: aliceblue;
 }
 .footer-icon i{
     font-size: 20px;
-    border-radius: 100%;
     margin-top: 10px;
-    padding: 10px;
-    background-color: #22213C;}
-.footer-text p{
-    font-size: 14px;
- 
+    color: aliceblue;
+    background-color: #22213C;
+    border-radius: 10px;
+    padding: 5px;
+  
 }
 
 
@@ -248,6 +247,9 @@ footer{
                 font-size: 25px;
                 text-align: center;
             }
+            .popular-area{
+                text-align: center;
+            }
     .collect-area {
                 display: grid;
                 grid-template-columns:  1fr;
@@ -262,6 +264,9 @@ footer{
 
 
 @media only screen and (min-width:321px) and (max-width:768px){
+    .influencer-title h1{
+        font-size: 30px;
+    }
     .logo-area {
         flex-direction: row;
         display: grid;
