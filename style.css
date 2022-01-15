@@ -218,4 +218,7 @@ footer{
     border-radius: 100%;
     margin-top: 10px;
     padding: 10px;
-    background-color: #22213C;
+    background-color: #22213C;}
+.footer-text p{
+    font-size: 14px;
+}
